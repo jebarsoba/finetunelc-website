@@ -10,3 +10,8 @@ blockquote {
   height: 600px;
   border-bottom: 1px solid #DDD;
 }
+@media (max-width: 767px) {
+	.intro {
+	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
+	}
+}
