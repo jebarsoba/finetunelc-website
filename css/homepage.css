@@ -1,5 +1,5 @@
 blockquote {
-    border-left: none;
+  border-left: none;
 }
 .intro {
   background: url(../images/landing-bg.png) bottom right no-repeat;
@@ -8,8 +8,5 @@ blockquote {
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
-  position: relative;
   border-bottom: 1px solid #DDD;
-  padding-left: 10%;
-  padding-right: 20px;
 }
