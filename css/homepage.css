@@ -16,3 +16,11 @@ blockquote {
 	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
 	}
 }
+.featurettes {
+  margin-bottom: 20px;
+}
+.testimonials {
+  background-color: #fafafa;
+  border-top: 1px solid #ebebeb;
+  padding-top: 20px;
+}
