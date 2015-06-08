@@ -1,3 +1,6 @@
+body {
+  color: #5a5a5a;
+}
 blockquote {
   border-left: none;
 }
@@ -11,16 +14,31 @@ blockquote {
   border-bottom: 1px solid #DDD;
   margin-bottom: 20px;
 }
-@media (max-width: 767px) {
-	.intro {
-	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
-	}
-}
 .featurettes {
   margin-bottom: 20px;
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
 }
 .testimonials {
   background-color: #fafafa;
   border-top: 1px solid #ebebeb;
   padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+	.featurette {
+	  padding-top: 0px;
+	}
+	.featurette-image {
+	  margin-top: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.intro {
+	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
+	}
 }
