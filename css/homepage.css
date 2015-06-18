@@ -48,12 +48,12 @@ blockquote {
 
 /* Salvattore (photo-gallery) */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
 	#grid[data-columns]::before {
 		content: '2 .column.size-1of2';
 	}
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
 	#grid[data-columns]::before {
 		content: '3 .column.size-1of3';
 	}
