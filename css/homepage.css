@@ -23,6 +23,9 @@ blockquote {
 .featurette-image {
   margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
 }
+.photo-gallery {
+  margin-bottom: 20px;
+}
 .testimonials {
   background-color: #fafafa;
   border-top: 1px solid #ebebeb;
@@ -42,3 +45,28 @@ blockquote {
 	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
 	}
 }
+
+/* Salvattore (photo-gallery) */
+
+@media screen and (max-width: 480px){
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+}
+@media screen and (min-width: 769px) {
+	#grid[data-columns]::before {
+		content: '3 .column.size-1of3';
+	}
+}
+
+/* Again, you’re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
