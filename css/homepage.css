@@ -5,7 +5,7 @@ blockquote {
   border-left: none;
 }
 .intro {
-  background: url(../images/landing-bg.png) bottom right no-repeat;
+  background: url(../images/michelangelo.jpg) center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +13,14 @@ blockquote {
   height: 600px;
   border-bottom: 1px solid #DDD;
   margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0px 0px 12px #111;
+  position: relative;
+}
+.intro-footer {
+  position: absolute;
+  bottom: 0;
+  font-style: italic;
 }
 .featurettes {
   margin-bottom: 20px;
@@ -38,11 +46,6 @@ blockquote {
 	}
 	.featurette-image {
 	  margin-top: 0px;
-	}
-}
-@media (max-width: 767px) {
-	.intro {
-	  background: url(../images/landing-bg-mob.png) bottom right no-repeat;
 	}
 }
 
