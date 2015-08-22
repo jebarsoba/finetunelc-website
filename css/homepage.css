@@ -10,7 +10,7 @@ blockquote {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   border-bottom: 1px solid #DDD;
   margin-bottom: 20px;
   color: #fff;
