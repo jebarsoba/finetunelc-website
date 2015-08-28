@@ -5,6 +5,7 @@ blockquote {
   border-left: none;
 }
 .intro {
+  position: relative;
   background: url(../images/michelangelo.jpg) center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,9 +14,10 @@ blockquote {
   height: 100vh;
   border-bottom: 1px solid #DDD;
   margin-bottom: 20px;
-  color: #fff;
-  text-shadow: 0px 0px 12px #111;
-  position: relative;
+}
+.intro h1, .intro h2, .intro p {
+	color: #fff;
+	text-shadow: 0px 0px 12px #111;
 }
 .value-proposition {
   position: absolute;
