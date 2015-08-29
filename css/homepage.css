@@ -82,7 +82,6 @@ blockquote {
 }
 
 /* Salvattore (photo-gallery) */
-
 @media screen and (max-width: 480px){
 	#grid[data-columns]::before {
 		content: '2 .column.size-1of2';
@@ -94,7 +93,6 @@ blockquote {
 	}
 }
 
-/* Again, you’re free to use and define the classes: */
 .column { float: left; }
 .size-1of1 { width: 100%; }
 .size-1of2 { width: 50%; }
