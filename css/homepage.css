@@ -8,38 +8,38 @@ blockquote {
   height: 103px;
 }
 .navbar-default {
-  background-color: transparent;
   border-color: transparent;
+  background-color: transparent;
 }
 .collapsible-menu-expanded {
-  background-color: #f8f8f8;
   border-color: #e7e7e7;
+  background-color: #f8f8f8;
 }
 .intro {
   position: relative;
+  margin-bottom: 20px;
+  height: 100vh;
+  border-bottom: 1px solid #DDD;
   background: url(../images/michelangelo.jpg) center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
-  border-bottom: 1px solid #DDD;
-  margin-bottom: 20px;
 }
 .value-proposition {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 	color: #fff;
 	text-shadow: 0px 0px 12px #111;
+  transform: translate(-50%, -50%);
 }
 .value-proposition h1 {
 	font-size: 50px;
 }
 .value-proposition h2 {
-	font-size: 30px;
   font-style: italic;
+	font-size: 30px;
 }
 .featurettes {
   margin-bottom: 20px;
@@ -54,9 +54,9 @@ blockquote {
   margin-bottom: 20px;
 }
 .testimonials {
-  background-color: #fafafa;
-  border-top: 1px solid #ebebeb;
   padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+  background-color: #fafafa;
 }
 
 /* <Intro text> */
