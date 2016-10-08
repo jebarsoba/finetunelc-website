@@ -60,21 +60,16 @@ a, a:hover, a:visited, a:active {
 }
 /*Feature icons size*/
 .fa-5x {
-  font-size: 8em !important;}
-.featurettes {
-  margin-bottom: 20px;
+  font-size: 8em !important;
 }
-.featurette {
-  padding-top: 84px; /* Vertically center images part 1: add padding above and below text. */
-}
-.featurette-image {
-  margin-top: -84px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+#features {
+    margin-bottom: -10px;
 }
 .photo-gallery {
   margin-bottom: 20px;
 }
 .testimonials {
-  padding-top: 20px;
+  margin-bottom: 20px;
   border-top: 1px solid #ebebeb;
   background-color: #fafafa;
 }
@@ -90,22 +85,13 @@ a, a:hover, a:visited, a:active {
 }
 @media (max-width: 767px) {
 	.value-proposition h1 {
-		font-size: 36px;
+		font-size: 32px;
 	}
   .value-proposition h2 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 /* </Intro text> */
-
-@media (max-width: 991px) {
-	.featurette {
-	  padding-top: 0px;
-	}
-	.featurette-image {
-	  margin-top: 0px;
-	}
-}
 
 /* Salvattore (photo-gallery) */
 @media screen and (max-width: 480px){
