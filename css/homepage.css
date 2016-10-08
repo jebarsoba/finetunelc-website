@@ -20,7 +20,12 @@ blockquote {
   margin-bottom: 20px;
   height: 100vh;
   border-bottom: 1px solid #DDD;
-  background: url(../images/michelangelo.jpg) center;
+  background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
+  background: linear-gradient(white, SlateGray);
+  background: -webkit-linear-gradient(white, SlateGray);
+  background: -o-linear-gradient(white, SlateGray);
+  background: -moz-linear-gradient(white, SlateGray);
+  background: linear-gradient(white, SlateGray);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
