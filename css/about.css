@@ -1,23 +1,22 @@
 body {
-  /*font-family: 'Merriweather Sans', arial, sans-serif;*/
-  color: #666;
-  /*font-size: 16px;*/
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #5a5a5a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-brand {
   height: 103px;
 }
 .navbar-default {
-  background-color: transparent;
   border-color: transparent;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #5a5a5a;
 }
 .team {
 padding:0px 0;
 }
 .team .title {
   font-size: 36px;
-  /*font-family: 'Open Sans', arial, sans-serif;*/
   font-weight: 800;
   color: #505c70;
   margin-top: 0;

@@ -1,5 +1,6 @@
 body {
   color: #5a5a5a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 blockquote {
   border-left: none;
@@ -10,6 +11,9 @@ blockquote {
 .navbar-default {
   border-color: transparent;
   background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #5a5a5a;
 }
 .collapsible-menu-expanded {
   border-color: #e7e7e7;
@@ -36,7 +40,7 @@ blockquote {
   top: 50%;
   left: 50%;
 	color: #fff;
-	text-shadow: 0px 0px 12px #111;
+	text-shadow: 0px 0px 8px #111;
   transform: translate(-50%, -50%);
 }
 .value-proposition h1 {
