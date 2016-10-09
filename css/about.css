@@ -1,87 +1,150 @@
-body {
-  color: #5a5a5a;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar-brand {
-  height: 103px;
-}
-.navbar-default {
-  border-color: transparent;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > li > a {
+body
+{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
     color: #5a5a5a;
 }
-.team {
-padding:0px 0;
+.navbar-brand
+{
+    height: 103px;
 }
-.team .title {
-  font-size: 36px;
-  font-weight: 800;
-  color: #505c70;
-  margin-top: 0;
-  margin-bottom: 15px;
+.navbar-default
+{
+    border-color: transparent;
+    background-color: transparent;
 }
-.team .intro {
-margin:0 auto 60px;
-max-width:800px;
-color:#65758e;
-font-weight:300;
-font-size:20px;
+.navbar-default .navbar-nav > li > a
+{
+    color: #5a5a5a;
 }
-.team .item .item-inner {
-position:relative;
-overflow:hidden;
-padding:30px 30px 60px;
-background:#f8f9fa;
+.intro
+{
+    position: relative;
+
+    height: 50vh;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #ddd;
+    background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
+    background:         linear-gradient(white, SlateGray);
+    background: -webkit-linear-gradient(white, SlateGray);
+    background:      -o-linear-gradient(white, SlateGray);
+    background:    -moz-linear-gradient(white, SlateGray);
+    background:         linear-gradient(white, SlateGray);
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
-.team .item .info .name {
-margin-top:0;
-margin-bottom:10px;
-color:#505c70;
-font-weight:700;
-font-size:22px;
+.promo
+{
+    font-size: 36px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 }
-.team .item .info .role {
-margin-top:0;
-margin-bottom:15px;
-color:#65758e;
-font-style:italic;
-font-size:16px;
+.team
+{
+    padding: 0 0;
 }
-.team .item .social {
-position:absolute;
-bottom:30px;
-margin-left:-30px;
-padding-top:15px;
-width:100%;
+.team .title
+{
+    font-size: 36px;
+    font-weight: 800;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    color: #505c70;
 }
-.team .item .social .social-list {
-margin:0 auto;
-width:100%;
+.team .team-intro
+{
+    font-size: 20px;
+    font-weight: 300;
+
+    max-width: 800px;
+    margin: 0 auto 60px;
+
+    color: #65758e;
 }
-.team .item .social .social-list li a {
-display:inline-block;
-padding-top:8px;
-width:36px;
-height:36px;
--moz-border-radius:50%;
--ms-border-radius:50%;
--o-border-radius:50%;
--webkit-border-radius:50%;
-border-radius:50%;
-background:#bcc4d0;
--moz-background-clip:padding;
--webkit-background-clip:padding-box;
-background-clip:padding-box;
+.team .item .item-inner
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 30px 30px 60px;
+
+    background: #f8f9fa;
 }
-.team .item .social .social-list li a:hover {
-background:#65758e;
+.team .item .info .name
+{
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: #505c70;
 }
-.team .item .social .social-list li .fa {
-color:#fff;
-font-size:18px;
+.team .item .info .role
+{
+    font-size: 16px;
+    font-style: italic;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    color: #65758e;
 }
-.team .item,.team .item .figure,.team .item .info {
-margin-bottom:30px;
+.team .item .social
+{
+    position: absolute;
+    bottom: 30px;
+
+    width: 100%;
+    margin-left: -30px;
+    padding-top: 15px;
+}
+.team .item .social .social-list
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.team .item .social .social-list li a
+{
+    display: inline-block;
+
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: #bcc4d0;
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding;
+            background-clip: padding-box;
+
+        -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+}
+.team .item .social .social-list li a:hover
+{
+    background: #65758e;
+}
+.team .item .social .social-list li .fa
+{
+    font-size: 18px;
+
+    color: #fff;
+}
+.team .item,
+.team .item .figure,
+.team .item .info
+{
+    margin-bottom: 30px;
 }

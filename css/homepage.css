@@ -1,111 +1,162 @@
-body {
-  color: #5a5a5a;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-blockquote {
-  border-left: none;
-}
-.navbar-brand {
-  height: 103px;
-}
-.navbar-default {
-  border-color: transparent;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > li > a {
+body
+{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
     color: #5a5a5a;
 }
-.collapsible-menu-expanded {
-  border-color: #e7e7e7;
-  background-color: #f8f8f8;
+blockquote
+{
+    border-left: none;
 }
-.intro {
-  position: relative;
-  margin-bottom: 20px;
-  height: 100vh;
-  border-bottom: 1px solid #DDD;
-  background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
-  background: linear-gradient(white, SlateGray);
-  background: -webkit-linear-gradient(white, SlateGray);
-  background: -o-linear-gradient(white, SlateGray);
-  background: -moz-linear-gradient(white, SlateGray);
-  background: linear-gradient(white, SlateGray);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.navbar-brand
+{
+    height: 103px;
 }
-.value-proposition {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-	color: #fff;
-	text-shadow: 0px 0px 8px #111;
-  transform: translate(-50%, -50%);
+.navbar-default
+{
+    border-color: transparent;
+    background-color: transparent;
 }
-.value-proposition h1 {
-	font-size: 50px;
+.navbar-default .navbar-nav > li > a
+{
+    color: #5a5a5a;
 }
-.value-proposition h2 {
-  font-style: italic;
-	font-size: 30px;
+.collapsible-menu-expanded
+{
+    border-color: #e7e7e7;
+    background-color: #f8f8f8;
+}
+.intro
+{
+    position: relative;
+
+    height: 100vh;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #ddd;
+    background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
+    background:         linear-gradient(white, SlateGray);
+    background: -webkit-linear-gradient(white, SlateGray);
+    background:      -o-linear-gradient(white, SlateGray);
+    background:    -moz-linear-gradient(white, SlateGray);
+    background:         linear-gradient(white, SlateGray);
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+.value-proposition
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+.value-proposition h1
+{
+    font-size: 50px;
+}
+.value-proposition h2
+{
+    font-size: 30px;
+    font-style: italic;
 }
 /*Scroll down icon*/
-.fa-angle-down {
-  animation: bounce 3000ms infinite;
+.fa-angle-down
+{
+    animation: bounce 3000ms infinite;
 }
-a, a:hover, a:visited, a:active {
-  color: inherit;
-  text-decoration: none;
+a,
+a:hover,
+a:visited,
+a:active
+{
+    text-decoration: none;
+
+    color: inherit;
 }
 /*Feature icons size*/
-.fa-5x {
-  font-size: 8em !important;
+.fa-5x
+{
+    font-size: 8em !important;
 }
-#features {
+#features
+{
     margin-bottom: -10px;
 }
-.photo-gallery {
-  margin-bottom: 20px;
+.photo-gallery
+{
+    margin-bottom: 20px;
 }
-.testimonials {
-  margin-bottom: 20px;
-  border-top: 1px solid #ebebeb;
-  background-color: #fafafa;
+.testimonials
+{
+    margin-bottom: 20px;
+
+    border-top: 1px solid #ebebeb;
+    background-color: #fafafa;
 }
 
 /* <Intro text> */
-@media (max-width: 980px) {
-	.value-proposition h1 {
-		font-size: 42px;
-	}
-  .value-proposition h2 {
-		font-size: 25px;
-	}
+@media (max-width: 980px)
+{
+    .value-proposition h1
+    {
+        font-size: 42px;
+    }
+    .value-proposition h2
+    {
+        font-size: 25px;
+    }
 }
-@media (max-width: 767px) {
-	.value-proposition h1 {
-		font-size: 32px;
-	}
-  .value-proposition h2 {
-		font-size: 16px;
-	}
+@media (max-width: 767px)
+{
+    .value-proposition
+    {
+        top: 60%;
+    }
+    .value-proposition h1
+    {
+        font-size: 32px;
+    }
+    .value-proposition h2
+    {
+        font-size: 16px;
+    }
 }
 /* </Intro text> */
 
 /* Salvattore (photo-gallery) */
-@media screen and (max-width: 480px){
-	#grid[data-columns]::before {
-		content: '2 .column.size-1of2';
-	}
+@media screen and (max-width: 480px)
+{
+    #grid[data-columns]::before
+    {
+        content: '2 .column.size-1of2';
+    }
 }
-@media screen and (min-width: 481px) {
-	#grid[data-columns]::before {
-		content: '3 .column.size-1of3';
-	}
+@media screen and (min-width: 481px)
+{
+    #grid[data-columns]::before
+    {
+        content: '3 .column.size-1of3';
+    }
 }
 
-.column { float: left; }
-.size-1of1 { width: 100%; }
-.size-1of2 { width: 50%; }
-.size-1of3 { width: 33.333%; }
+.column
+{
+    float: left;
+}
+.size-1of1
+{
+    width: 100%;
+}
+.size-1of2
+{
+    width: 50%;
+}
+.size-1of3
+{
+    width: 33.333%;
+}
