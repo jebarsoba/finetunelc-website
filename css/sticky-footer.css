@@ -1,24 +1,31 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+html
+{
+    position: relative;
+
+    min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 50px;
+body
+{
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 50px;
+.footer
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
 }
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-.footer {
-  padding: 15px 0;
-  background-color: #262626;
+.footer
+{
+    padding: 15px 0;
+
+    background-color: #262626;
 }

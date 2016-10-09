@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    color: #5a5a5a;
+}
+.navbar-brand
+{
+    height: 103px;
+}
+.navbar-default
+{
+    border-color: transparent;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #5a5a5a;
+}
+.intro
+{
+    position: relative;
+
+    height: 50vh;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #ddd;
+    background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
+    background:         linear-gradient(white, SlateGray);
+    background: -webkit-linear-gradient(white, SlateGray);
+    background:      -o-linear-gradient(white, SlateGray);
+    background:    -moz-linear-gradient(white, SlateGray);
+    background:         linear-gradient(white, SlateGray);
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+.promo
+{
+    font-size: 36px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
