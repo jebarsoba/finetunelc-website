@@ -1,6 +1,6 @@
-/*$(document).ready(function() {*/
 var vm = {
-    emailAddress: ko.observable().extend({ required: true }).extend({ email: true }),
+    emailAddress: ko.observable().extend({ required: { message: 'Por favor ingrese su email.' } }).extend({ email: { message: 'Por favor ingrese una dirección de email válida.' } }),
+    emailMessage: ko.observable().extend({ required: { message: 'Por favor ingrese su mensaje.' } }),
     submit: function() {
       if (vm.errors().length === 0) {
         var name = $("#name").val();

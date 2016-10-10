@@ -59,3 +59,7 @@ body
 
     color: green;
 }
+.validationMessage
+{
+    color: #f00;
+}
