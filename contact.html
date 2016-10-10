@@ -42,7 +42,7 @@
 			</section>
 		</header>
 
-		<div class='container'>
+		<div id="contact-form" class="container">
 			<div class="form-group">
 			  <label for="name">Nombre:</label>
 			  <input type="text" class="form-control" id="name">
@@ -55,8 +55,10 @@
 				<label for="message">Mensaje:</label>
 			  <textarea class="form-control" rows="5" id="message"></textarea>
 			</div>
-			<button type="button" class="btn btn-default">Enviar</button>
-			<p id="returnmessage">Su mensaje ha sido enviado exitosamente.</p>
+			<button id="submit" type="button" class="btn btn-default">Enviar</button>
+		</div>
+		<div id="returnmessage" class="container">
+			<p>Su mensaje ha sido enviado exitosamente.</p>
 		</div>
 
 		<footer class='footer'>
@@ -72,20 +74,6 @@
 		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 		<script src='js/bootstrap.js'></script>
 		<script src='js/homepage.js'></script>
-		<script>
-			$("button").click(function(){
-				var name = $("#name").val();
-				var email = $("#email").val();
-				var message = $("#message").val();
-
-		    $.post("send-email.php", {
-						name1: name,
-						email1: email,
-						message1: message
-					}, function(data, status){
-        		$("#returnmessage").css("display", "block");
-    		});
-			});
-		</script>
+		<script src='js/contact.js'></script>
 	</body>
 </html>
