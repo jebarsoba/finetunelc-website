@@ -49,3 +49,13 @@ body
 {
     margin-bottom: 13px;
 }
+#returnmessage
+{
+    font-size: 14px;
+
+    display: none;
+
+    text-align: center;
+
+    color: green;
+}

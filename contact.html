@@ -44,18 +44,19 @@
 
 		<div class='container'>
 			<div class="form-group">
-			  <label for="usr">Nombre:</label>
+			  <label for="name">Nombre:</label>
 			  <input type="text" class="form-control" id="name">
 			</div>
 			<div class="form-group">
-			  <label for="pwd">Email:</label>
-			  <input type="password" class="form-control" id="email">
+			  <label for="email">Email:</label>
+			  <input type="text" class="form-control" id="email">
 			</div>
 			<div class="form-group">
-			  <label for="comment">Mensaje:</label>
+				<label for="message">Mensaje:</label>
 			  <textarea class="form-control" rows="5" id="message"></textarea>
 			</div>
 			<button type="button" class="btn btn-default">Enviar</button>
+			<p id="returnmessage">Su mensaje ha sido enviado exitosamente.</p>
 		</div>
 
 		<footer class='footer'>
@@ -71,5 +72,20 @@
 		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 		<script src='js/bootstrap.js'></script>
 		<script src='js/homepage.js'></script>
+		<script>
+			$("button").click(function(){
+				var name = $("#name").val();
+				var email = $("#email").val();
+				var message = $("#message").val();
+
+		    $.post("send-email.php", {
+						name1: name,
+						email1: email,
+						message1: message
+					}, function(data, status){
+        		$("#returnmessage").css("display", "block");
+    		});
+			});
+		</script>
 	</body>
 </html>
