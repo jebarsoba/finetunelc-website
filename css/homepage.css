@@ -34,12 +34,7 @@ blockquote
     margin-bottom: 20px;
 
     border-bottom: 1px solid #ddd;
-    background: LightGray; /* http://www.w3schools.com/cssref/css_colors.asp */
-    background:         linear-gradient(white, SlateGray);
-    background: -webkit-linear-gradient(white, SlateGray);
-    background:      -o-linear-gradient(white, SlateGray);
-    background:    -moz-linear-gradient(white, SlateGray);
-    background:         linear-gradient(white, SlateGray);
+    background: url(../images/rothko.jpg) center;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -58,11 +53,13 @@ blockquote
 .value-proposition h1
 {
     font-size: 50px;
+    color: #fff;
 }
 .value-proposition h2
 {
     font-size: 30px;
     font-style: italic;
+    color: #fff;
 }
 /*Scroll down icon*/
 .fa-angle-down
